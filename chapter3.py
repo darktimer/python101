@@ -115,3 +115,47 @@ print(names[1].title() + ", u r still on table too.")
 del names[1]
 del names[0]
 print(names)
+#end
+
+cars = ['bmw', 'audi', 'toyota', 'subaru']
+cars.sort()
+print(cars)
+
+cars = ['bmw', 'audi', 'toyota', 'subaru']
+cars.sort(reverse = True)
+print(cars)
+
+cars = ['bmw', 'audi', 'toyota', 'subaru']
+print('This is original list:')
+print(cars)
+print('This is sorted list:')
+# print(sorted(cars, reverse = True))
+print(sorted(cars))
+print('This is original list again:')
+print(cars)
+
+cars = ['bmw', 'audi', 'toyota', 'subaru']
+cars.reverse()
+print(cars)
+
+cars = ['bmw', 'audi', 'toyota', 'subaru']
+print(len(cars))
+
+#3-8 to 3-10
+places = ['Peking', 'Hangchow', 'LA', 'DC', 'NY']
+print(places)
+print(sorted(places))
+print(places)
+print(sorted(places, reverse = True))
+print(places)
+places.reverse()
+print(places)
+places.reverse()
+print(places)
+places.sort()
+print(places)
+places.sort(reverse = True)
+print(places)
+
+names = ['ron', 'harry', 'hermione', 'jean', 'navl', 'sirius', 'fred']
+print("I invited " + str(len(names)) + " guests to dinner!")
